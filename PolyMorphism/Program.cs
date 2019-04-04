@@ -16,6 +16,12 @@ namespace PolyMorphism
                     case "2": employeArray[i] = new FullTimeEmployee(); break;
                 }
             }
+            foreach(var item in employeArray)
+            {
+                item.PrintName();
+            }
+
+            Console.ReadLine();
         }
     }
     public class Employee
