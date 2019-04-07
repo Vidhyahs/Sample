@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyMorphism", "PolyMorphism\PolyMorphism.csproj", "{1BB2019B-786A-4667-A4C4-38862B325139}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsKeyWordSample", "ParamsKeyWordSample\ParamsKeyWordSample.csproj", "{4BDCE6ED-97B5-445E-856E-37E8A34352FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{15A49B5B-274F-4512-B88F-FD6DEB1EF475}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{4BDCE6ED-97B5-445E-856E-37E8A34352FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BDCE6ED-97B5-445E-856E-37E8A34352FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BDCE6ED-97B5-445E-856E-37E8A34352FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A49B5B-274F-4512-B88F-FD6DEB1EF475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A49B5B-274F-4512-B88F-FD6DEB1EF475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A49B5B-274F-4512-B88F-FD6DEB1EF475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A49B5B-274F-4512-B88F-FD6DEB1EF475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B2018EF-D513-4DD1-95C8-979242DA9614}
 	EndGlobalSection
 EndGlobal
