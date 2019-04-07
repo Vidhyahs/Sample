@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ParamsKeyWordSample
 {
-   public class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -18,17 +14,17 @@ namespace ParamsKeyWordSample
             st.StudentName = "Naveen";
 
             et.Id = clas.Id;
-            et.EmployeeName= "emplname";
+            et.EmployeeName = "emplname";
             PrintParmObjects(st, et, clas);
             Console.WriteLine("\n");
             Console.ReadLine();
-           
+
         }
 
         public static void PrintParmObjects(params object[] collection)
         {
             Console.Write("Your Objects are {0}", collection.Length);
-            foreach(var singam in collection)
+            foreach (var singam in collection)
             {
                 if (singam.GetType() == typeof(CollectionOfClass))
                 {
@@ -44,9 +40,7 @@ namespace ParamsKeyWordSample
                 {
                     var data = (Employee)singam;
                     Console.WriteLine($"Employee name {data.EmployeeName} and his Id is {data.Id}");
-
                 }
-
             }
         }
     }
